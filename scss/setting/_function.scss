@@ -1,0 +1,22 @@
+$colors: (
+  header-bg-color: #7dd6a9,
+  header-font-color:#FFF,
+  body-bg-color: #FFF,
+  font-base-color: #767676,
+  footer-bg-color:#333,
+  footer-font-color:#FFF,
+); 
+
+@function cl($color) {
+  @return map-get($colors, $color);
+}
+
+$font-sizes: (
+  header-title: 60px,
+  base-font: 18px,
+  footer-copyright: 8px,
+); 
+
+@function font-size($font-size) {
+  @return map-get($font-sizes, $font-size);
+}

@@ -1,0 +1,11 @@
+.Footer {
+  width: 100%;
+  height: 32px;  
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: cl(footer-bg-color);
+  color: cl(footer-font-color);
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,16 @@
+.Header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  background-color: cl(header-bg-color);
+
+  &-title {
+    font-size: font-size(header-title);
+    font-weight: bold;
+    margin-left: 15px;
+    color: cl(header-font-color);
+  }
+}

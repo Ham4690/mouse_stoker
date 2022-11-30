@@ -1,0 +1,16 @@
+.c-stalker {
+  /*マウスストーカーの位置調整*/
+  position: fixed;
+  top: -1em;
+  left: -1em;
+  pointer-events: none;/*マウスストーカーをイベントの対象外にする*/
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition-property: width, height, background-color, transform;
+  transition-timing-function: linear;
+  transition-duration: 0.1s;
+  z-index: 999;
+}
